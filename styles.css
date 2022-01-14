@@ -1,3 +1,32 @@
 body {
   background-color: pink;
+  padding: 2em;
+}
+
+div {
+  padding: 10px;
+}
+
+.square {
+  padding: 10px;
+  margin: 10px;
+  background-color: white;
+  display: inline-block;
+  height: 10px;
+  width: 10px;
+  vertical-align: top;
+  border-radius: 3px;
+}
+
+#board {
+  background-color: aqua;
+  display: inline-block;
+  border-radius: 6px;
+}
+
+#timer {
+  background-color: lightskyblue;
+  border-radius: 5%;
+  padding: 10px;
+  display: block;
 }
